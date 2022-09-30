@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  background: orange;
+}
+p {
+  color: white;
+}
+a {
+  color: orange;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(203, 255, 251);
+}

@@ -1,0 +1,94 @@
+body {
+  background: beige;
+}
+body,
+h2,
+p,
+h3,
+a,
+ul,
+li {
+  margin: 0px;
+}
+p {
+  text-align: center;
+}
+.section {
+  margin-bottom: 16px;
+}
+button {
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(40, 111, 218);
+  color: white;
+  padding: 6px;
+  margin-top: 10px;
+}
+button:hover {
+  background-color: rgb(0, 195, 255);
+}
+h3 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin: 6px;
+  background-color: rgb(51, 182, 143);
+  border-radius: 3px;
+  padding: 5px;
+}
+a:hover {
+  background-color: rgb(86, 199, 165);
+}
+header {
+  background-color: rgb(83, 190, 56);
+  display: flex;
+  flex-direction: inline;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+}
+nav {
+  background-color: rgb(50, 194, 238);
+  height: 3rem;
+  display: flex;
+  flex-direction: inline;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  background-color: rgb(134, 127, 240);
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+aside {
+  background-color: rgb(252, 85, 85);
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+}
+article {
+  background-color: rgb(250, 247, 85);
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  float: left;
+}
+footer {
+  background-color: rgb(65, 65, 65);
+  height: 3rem;
+  display: flex;
+  flex-direction: inline;
+  align-items: center;
+  justify-content: center;
+}

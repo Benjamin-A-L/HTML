@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .barra{
+    display: flex;
+    flex-direction: inline;
+    align-items: center;
+  }
+  #quienesomos{
+    background-color: rgba(201, 172, 119, 0.671);
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 18%;
+    border: solid greenyellow 3px;
+  }
+  #quienesomos:hover{
+    background-color: rgba(247, 227, 137, 0.753);
+    cursor: pointer;
+  }
+  #ayuda{
+    background-color: rgba(201, 172, 119, 0.671);
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 20%;
+    border: solid greenyellow 3px;
+  }
+  #ayuda:hover{
+    background-color: rgba(247, 227, 137, 0.753);
+    cursor: pointer;
+  }
+  .QUienesomos{
+    display: none;
+  }
+  .toggle.active .QUienesomos{
+    display: block;
+  }
+  .AYuda{
+    display: none;
+  }
+  .toggle.active .AYuda{
+    display: block;
+  }
+  #biblioteca{
+    background-color: rgba(201, 172, 119, 0.671);
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 20%;
+    border: solid greenyellow 3px;
+  }
+  #biblioteca:hover{
+    background-color: rgba(247, 227, 137, 0.753);
+    cursor: pointer;
+  }
+  #inicio{
+    background-color: blanchedalmond;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    height: 4rem;
+  }
+  #logo{
+    height: 100%;
+  }
+
+  
+  
+  
+  #bloque{
+    background-color: rgba(51, 255, 0, 0.288);
+    padding-bottom: 2rem;
+    /* height: 30rem; */
+  }
+  .titulo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: cadetblue;
+      height: auto;
+    }
+    #titulo {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    #graduacion{
+      height: 13rem;
+    }
+
+
+
+  
+  .info {
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    width: 100%;
+    
+  }

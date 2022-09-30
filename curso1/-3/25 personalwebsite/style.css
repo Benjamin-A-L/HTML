@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  font-family: "Roboto Mono", "Ari";
+}
+.divs {
+  height: 100vh;
+  overflow: hidden;
+}
+#boton1,
+#boton2,
+#boton3,
+#boton4 {
+  visibility: hidden;
+  position: absolute;
+}
+.arrowdown::after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: auto;
+  top: 40rem;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-right: 5px solid rgb(0, 0, 0, 0.5);
+  border-bottom: 5px solid rgb(0, 0, 0, 0.5);
+  transform: rotate(45deg);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.arrowup::after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: auto;
+  top: 40rem;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-right: 5px solid rgb(0, 0, 0, 0.5);
+  border-bottom: 5px solid rgb(0, 0, 0, 0.5);
+  transform: rotate(225deg);
+  border-radius: 4px;
+  cursor: pointer;
+}
+#div1 {
+  background-color: rgb(41, 109, 109);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+  position: relative;
+  text-align: center;
+}
+#div1 h1 {
+  margin: 1rem;
+  color: white;
+  text-shadow: black 2px 2px 8px;
+}
+#div1 i {
+  font-size: 1.2rem;
+  color: white;
+  text-shadow: black 2px 2px 8px;
+}
+#div1 p {
+  color: white;
+  text-shadow: black 2px 2px 8px;
+  letter-spacing: 0.7px;
+  font-size: 1.3rem;
+}
+.img-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-div div {
+  height: 230px;
+  width: 230px;
+  background-color: rgba(252, 252, 252, 0.795);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-div div img {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+}
+#div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url(https://media.istockphoto.com/photos/computer-programmer-working-on-new-software-program-picture-id1212006391);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+#div2 div {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(92, 92, 92, 0.795);
+  margin-left: 16%;
+  margin-right: 16%;
+}
+#div2 div img {
+  height: 220px;
+  width: 220px;
+  margin: 2rem;
+}
+#div2 div p {
+  margin: 1rem;
+}
+#div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 0px 10% 0px;
+}
+#div3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+#Skills {
+  background-color: brown;
+  width: 100%;
+  color: rgb(255, 218, 218);
+}
+#Skills h1 {
+  padding: 10px;
+}
+.skillswrap {
+  display: inline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cornflowerblue;
+  height: 100vh;
+  flex-direction: inline;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(88, 195, 199);
+  border: 4px solid whitesmoke;
+  width: 30%;
+  margin: 5px 10px 20px;
+  padding: 25px;
+  height: auto;
+  display: inline-block;
+  border-radius: 4px;
+  color: white;
+}
+.skill img {
+  height: auto;
+  width: 14vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.skill h2 {
+  color: black;
+  font-weight: bold;
+  font-size: xx-large;
+}
+#div4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(https://cdn.pixabay.com/photo/2014/05/02/21/49/laptop-336373_960_720.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#div4 h1,
+#div4 p {
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  margin: 14px;
+}
+#div4 p {
+  font-size: 1.4rem;
+}
+.overlay {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(128, 128, 128, 0.425);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 12px;
+}
+form {
+  padding: 12px;
+}
+form input,
+form textarea,
+form button {
+  box-sizing: border-box;
+  width: 90vw;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+form input:focus {
+  outline: turquoise;
+}
+form textarea {
+  font-family: inherit;
+}
+form textarea:focus {
+  outline: none;
+}
+form button {
+  /* width: 92.3vw; */
+  font-size: 1.2rem;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  background-color: khaki;
+  font-weight: bold;
+}
+form button:focus {
+  background-color: rgb(247, 233, 106);
+}
+form button:hover {
+  background-color: rgb(255, 249, 197);
+}
+#lowerskill {
+  display: inline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cornflowerblue;
+  flex-direction: inline;
+  margin-left: none;
+}
+/* considerar que el div lowerskill existe con el solo proposito de ayudar a que el sitio funcione mejor a menores resoluciones de grosor, claro que afecta cuando este no es menor de 800 px y hay que arreiglarlo */
+@media (max-width: 800px) {
+  .skill {
+    width: 40vw;
+  }
+  .skillswrap {
+    overflow: auto;
+    height: 140vh;
+    flex-direction: column;
+    width: 100%;
+  }
+  #lowerskill .skill {
+    width: 35vw;
+  }
+  #div3 {
+    height: 130vh;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+}

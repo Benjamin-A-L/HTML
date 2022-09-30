@@ -1,0 +1,39 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+table,
+table thead th,
+table tbody tr td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+#caja {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: crimson;
+  height: 18%;
+  padding: 12px;
+}
+button {
+  width: 98%;
+  margin: 4px;
+}
+input {
+  width: 98%;
+  margin: 6px;
+}
+#mesa {
+  background: coral;
+  margin: 16px;
+  padding: 4px;
+}

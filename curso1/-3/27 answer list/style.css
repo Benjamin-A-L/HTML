@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', 'sans-serif';
+    background-color: rgb(209, 189, 255);
+}
+.wrap{
+    background-color: rgb(213, 224, 233);
+    border: 1px solid rgb(160, 156, 156);
+    margin: 20px 0px;
+    padding: 30px;
+    position: relative;
+    color: rgb(61, 61, 61);
+}
+
+
+.wrap.active{
+    background-color: white;
+
+}
+.wrap-title{
+    margin: 0 35px 0 0;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 2px white;
+}
+.wrap-text{
+    display: none;
+    margin: 30px 0 0;
+    font-size: 1,2rem;
+}
+.wrap.active .wrap-text{
+    display: block;
+}
+.wrap-toggle{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+}
+.wrap-toggle .fa-circle-chevron-down{
+    font-size: 1.5rem;
+}
+.wrap-toggle .fa-circle-xmark{
+    font-size: 1.5rem;
+}
+.wrap-toggle:focus{
+    outline: none;
+}
+.wrap-toggle .fa-circle-xmark{
+    display: none;
+}
+.wrap.active .fa-circle-xmark{
+    display: block;
+}
+.wrap.active .fa-circle-chevron-down{
+    display: none;
+}

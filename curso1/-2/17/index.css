@@ -1,0 +1,30 @@
+button {
+  background: white;
+  border: 1px solid black;
+  height: 21px;
+}
+#plus {
+  color: rgb(86, 175, 86);
+}
+#minus {
+  color: red;
+}
+#reset {
+  color: rgb(21, 125, 185);
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wrap {
+  text-align: center;
+  background: rgb(18, 179, 179);
+  padding: 12px;
+  border-radius: 4px;
+}
+h3 {
+  color: rgb(255, 255, 255);
+}

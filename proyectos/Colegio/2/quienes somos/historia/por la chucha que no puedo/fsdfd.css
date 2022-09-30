@@ -1,0 +1,13 @@
+.lol.active{
+    color: black;
+    height: 20rem;
+    background-color: orange;
+    font-weight: bold;
+    /* display: block; */
+}
+.lol.active a{
+    display: block;
+}
+a{
+    display: none;
+}

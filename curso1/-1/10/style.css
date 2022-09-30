@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Georama", Arial, Helvetica, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("/HTML/curso1/10/images/corvettec4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: inline;
+  height: 25rem;
+}
+.container .card {
+  width: 18rem;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 18px 18px 50px rgba(0, 0, 0, 1);
+  backdrop-filter: blur(4px);
+  border-top: 1px solid rgba(255, 255, 255, 0.315);
+  border-left: 1px solid rgba(255, 255, 255, 0.315);
+}
+.content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.form input {
+  padding: 8px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 18px;
+  width: 80%;
+}
+h1 {
+  color: rgba(36, 36, 36, 0.664);
+}
+#checkbox {
+  margin-top: 22px;
+  margin-bottom: 22px;
+  cursor: pointer;
+}
+label {
+  padding: 4px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.274);
+  cursor: pointer;
+}
+label:hover {
+  background: rgba(255, 255, 255, 0.87);
+}
+button {
+  padding: 4px;
+  font-size: 14px;
+  width: 5.5rem;
+  border: none;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.274);
+}
+button:hover {
+  background: rgba(255, 255, 255, 0.87);
+  cursor: pointer;
+}
+@media (max-width: 40000px) {
+  .container .card {
+    width: 80vw;
+  }
+}
+@media (max-width: 1800px) {
+  .container .card {
+    width: 70vw;
+  }
+}
+@media (max-width: 1200px) {
+  .container .card {
+    width: 55vw;
+  }
+}
+@media (max-width: 400px) {
+  .container .card {
+    width: 35vw;
+  }
+}
