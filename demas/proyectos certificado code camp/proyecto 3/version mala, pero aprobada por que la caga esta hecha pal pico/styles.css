@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #main-doc{
+    display: flex;
+  }
+  #navbar{
+    width: 30%;
+    border-right: solid black 2px;
+    position: fixed;
+    height: 100%;
+  }
+  #Programing_languages{
+    padding: 0;
+    position: fixed;
+  }
+  #Programing_languages header{
+    padding: 2rem;
+    width: 24vw;
+  }
+  #navbar header{
+    display: none;
+  }
+  #navbar li{
+    border-bottom: solid 2px black;
+    padding: 12px 0rem 12px 1rem;
+  }
+  #pl-link{
+    display: none;
+  }
+  #cplus-link{
+    border-top: solid 2px black;
+  }
+  .nav-link{
+    color: black;
+    text-decoration: none;
+  }
+  .container{
+    width: 70%;
+    text-align: justify;
+    position: absolute;
+    right: 0px;  
+  }
+  header{
+    font-size: 1.8rem;
+  }
+  #navbar{
+    width: 25%;
+    padding: 0rem;
+  }
+  .main-section{
+    padding: 1rem;
+  }
+  .main-section p{
+    padding: 2rem;
+  }
+  .main-section code{
+    padding-inline: 2rem; 
+  }
+  @media (max-width: 1100px) {
+    #Programing_languages header{
+      font-size: 1.5rem;
+    }
+  }
+  @media (max-width: 960px) {
+    .container{
+      width: 75%;
+    }
+  }
+  @media (max-width: 700px) {
+    #Programing_languages header{
+      font-size: 1.35rem;
+      padding: 1.2rem;
+    }
+  }
+  @media (max-width: 550px) {
+    #Programing_languages header{
+      font-size: 1.2rem;
+      padding:  0.7rem;
+    }
+    #Programing_languages li{
+      padding-left: 0.5rem;
+    }
+  }

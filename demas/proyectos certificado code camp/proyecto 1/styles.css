@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+    font-family: 'Ubuntu', sans-serif; 
+  }
+  body{
+      background: url(https://d3jbhadj57dczt.cloudfront.net/preview-603313-1cYSTWr9Nr1UM9EP-large.JPG)left top no-repeat; 
+  }
+  #bg{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(125, 125, 125, 0.8);
+  }
+  .container{
+    width: min(100% - 2rem, 600px);
+    margin: 2rem 0 6rem 0;
+    box-shadow: 0.2rem 0.25rem 0.3rem 0.3rem rgba(0,0,0,0.6);
+    border-radius: 0.3rem; 
+    background-color: rgba(200,200,200);
+  
+  }
+  #survey-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+  }
+  .info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+  }
+  h1{
+    margin-bottom: 2rem;
+  }
+  #s_s, #s_activities, #s_consistant{
+    margin-bottom: 1rem;
+  }
+  #aditional{
+    margin-bottom: 0.5rem;
+  }
+  .input-bar{
+    padding: 4px;
+    border: none;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.4);
+    border-radius: 0.25rem;
+  }
+  #submit{
+  width: 6rem;
+  margin-inline: auto;
+  background-color: rgba(230,230,230);
+  padding: 3px 0 3px 0;
+  border-radius: 0.3rem;
+  border: none;
+  }
+  #submit:hover{
+  background-color: rgba(80,80,80);
+  color: white;
+  }

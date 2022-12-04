@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: min(90%, 650px);
+    border-right: solid rgba(0, 0, 0, 0.2) 5px;
+    border-left: solid rgba(0, 0, 0, 0.2) 5px;
+    margin-inline: auto;
+    text-align: justify;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+  }
+  h3{
+    margin-bottom: 6px;
+  }
+  #img-div{
+    margin-bottom: 1rem;
+  }
+  #image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  #tribute-link{
+    color: rgba(0, 0, 0, 1);
+  }
+  p{
+    margin-bottom: 1rem;
+  }

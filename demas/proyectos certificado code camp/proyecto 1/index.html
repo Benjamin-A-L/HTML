@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel='stylesheet' href="styles.css">
+</head>
+<body>
+
+<div id='bg'>
+        <div class='info'>
+        <h1 id='title'>Free Workout Survey</h1>
+        <p id='description'>we just need you to answer a few questions so we can determine the best workout plan depending on your objectives and current state</p>
+        </div>
+    <div class="container">
+    
+
+
+        <form id='survey-form'>
+            <label for='name'id='name-label'>Name</label>
+            <input value='name' class='input-bar' id='name' type='text' placeholder='please enter your name' required><br>
+            <label for='email'id='email-label'>Email</label>
+            <input value='email' class='input-bar' type='email' id='email' placeholder='please enter your email' required><br>
+            <label for='number'id='number-label'>Age</label>
+            <input value='number' class='input-bar' type='number' id='number' min='0' max='120' placeholder='please enter your age'><br><br>
+
+            <label for='' id='select-laber'>Please describe your current phisical state</label>
+            
+            <select class='input-bar' name='state' id='dropdown' required>
+                <option disabled selected value>select an option</option>
+                <option value='thin'>thin frame low body fat</option>
+                <option value='skiny_fat'>thin frame high body fat</option>
+                <option value='obese'>overwheight</option>
+                <option value='athletic'>regular frame low body fat</option>
+                <option value='bulky'>big frame regular body fat</option>
+            </select><br><br>
+
+
+            <label for='objective' id='objectice-label'>Please select the option that best describes your goal/objective for working out</label>
+
+            <select class='input-bar' name='objective' id='objective' required>
+                <option disabled selected value>select an option</option>
+                <option value='healthy'>have a healthy lifestyle</option>
+                <option value='strength'>improve my overall strenght</option>
+                <option value='m_asthetic'>achieve an atractive physic</option>
+                <option value='athletic'>improve your body for an athletic pursuit</option>
+            </select><br>
+
+            <div id='align'>
+            <div id='s_s'>
+            <p>Please select your sex</p>
+            <input type='radio' value='M' name='sex' id='M'>
+            <label for='M' id='M-label'>Male</label><br>
+            <input type='radio' value='F' name='sex' id='F'>
+            <label for='F' id='F-label'>Female</label>
+            </div>
+
+            <div id='s_activities'>
+            <p>Select witch of the following activities you enjoy the most</p>
+            <input value='wheights' type='checkbox' name='enjoy' id='wheights'>
+            <label for='wheights' id='wheights-label'>Lifting wheights</label><br>
+            <input value='run' type='checkbox' name='enjoy' id='run'>
+            <label for='run' id='run-label'>Runing/Jogging</label><br>
+            <input value='team' type='checkbox' name='enjoy' id='team'>
+            <label for='team' id='team-label'>Team based sports<label><br>
+            <input value='yoga' type='checkbox' name='enjoy' id='yoga'>
+            <label for='yoga' id='yoga-label'>yoga/streching</label>
+            </div>
+
+            </div>
+
+            <div id='s_consistant'>
+            <p>Do you perform the selected options on a consistant basis?<p>
+            <input type='radio' value='yes' name='consistancy' id='yes'>
+            <label for='yes' id='yes-label'>yes</label><br>
+            <input type='radio' value='no' name='consistancy' id='no'>
+            <label for='no' id='mo-label'>no</label><br>
+            <input type='radio' value='somewhat' name='consistancy' id='somewhat'>
+            <label for='somwhat' id='somewhat-label'>every once in a while</label>
+            </div>
+
+            <p id='aditional'>If you have any aditional information that might influence your optimal workout program you can enter it in here</p>
+            <textarea name='coments' cols='50' rows='5'>
+
+            </textarea><br>
+            <input value='submit' id='submit' type='submit'>
+
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
